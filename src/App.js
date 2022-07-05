@@ -1,8 +1,11 @@
+import Provider from "./context/Provider";
+import Main from "./pages/Main";
+
 function App() {
   return (
-    <h1>
-      yeyy
-    </h1>
+    <Provider>
+      <Main />
+    </Provider>
   );
 }
 
